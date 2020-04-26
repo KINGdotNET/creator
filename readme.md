@@ -68,6 +68,7 @@ $ sudo apt install npm <br/>
 To check which version of Node.js you have installed after these initial steps, type: <br/>
 $ nodejs -v <br/>
 Reference on how to install Nodejs. https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-16-04  <br/>
+But I like this guide, easy to follow: https://tecadmin.net/install-latest-nodejs-npm-on-ubuntu/ <br/>
 Install PM2 by typing thr following at the command line: <br/>
 $ sudo npm install pm2 -g <br/>
 
