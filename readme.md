@@ -61,7 +61,7 @@ Service was tested on Windows 10 and Ubuntu 16.04. This instructions are for Ubu
 1 - Clone Github repository: https://github.com/KINGdotNET/creator
 
 First, let's install other dependencies. Tested using Ubuntu 16.04, not compatible using 18.04.4 LTS <br/>
-$ sudo apt update<br/>
+$ sudo apt update && sudo apt upgrade<br/>
 Install Node.js from the repositories:<br/>
 $ sudo apt install nodejs <br/>
 $ sudo apt install npm <br/>
