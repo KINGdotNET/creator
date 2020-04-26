@@ -67,6 +67,8 @@ $ sudo apt install nodejs <br/>
 $ sudo apt install npm <br/>
 To check which version of Node.js you have installed after these initial steps, type: <br/>
 $ nodejs -v <br/>
+Install PM2 by typing thr following at the command line: <br/>
+sudo npm install pm2 -g <br/>
 
 `git clone https://github.com/KINGdotNET/creator.git`
 
