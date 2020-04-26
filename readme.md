@@ -81,7 +81,7 @@ $ sudo apt update <br/>
 $ sudo apt install mysql-server <br/>
 $ sudo mysql_secure_installation <br/>
 
-`mysql  -p`
+`mysql -u USERNAME -p`
 
 `create database creator;`
 
