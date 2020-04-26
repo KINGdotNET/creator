@@ -130,7 +130,7 @@ Note: If you enable account claiming, it will claim accounts every 12 hours and 
 
 <br>
 
-First, add the repository: <br>
+Let's install SSL. First, add the repository: <br>
 $ sudo add-apt-repository ppa:certbot/certbot <br>
 You’ll need to press ENTER to accept. Afterwards, update the package list to pick up the new repository’s package information: <br>
 $ sudo apt-get update <br>
