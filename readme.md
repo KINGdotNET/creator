@@ -60,13 +60,13 @@ Service was tested on Windows 10 and Ubuntu 16.04. This instructions are for Ubu
 
 1 - Clone Github repository: https://github.com/KINGdotNET/creator
 
-First, let's install other dependencies. Tested using Ubuntu 18.LTS <br \>
-$ sudo apt update<br \>
-Install Node.js from the repositories:<br \>
-$ sudo apt install nodejs<br \>
-$ sudo apt install npm<br \>
-To check which version of Node.js you have installed after these initial steps, type:<br \>
-$ nodejs -v<br \>
+First, let's install other dependencies. Tested using Ubuntu 18.LTS <br/>
+$ sudo apt update<br/>
+Install Node.js from the repositories:<br/>
+$ sudo apt install nodejs <br/>
+$ sudo apt install npm <br/>
+To check which version of Node.js you have installed after these initial steps, type: <br/>
+$ nodejs -v <br/>
 
 `git clone https://github.com/KINGdotNET/creator.git`
 
