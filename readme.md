@@ -76,6 +76,11 @@ $ nodejs -v <br/>
 
 2 - Create MySQL database:
 
+Install MySQL database, using the following command.<br/>
+$ sudo apt update <br/>
+$ sudo apt install mysql-server <br/>
+$ sudo mysql_secure_installation <br/>
+
 `mysql  -p`
 
 `create database creator;`
