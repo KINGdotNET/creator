@@ -130,6 +130,23 @@ Note: If you enable account claiming, it will claim accounts every 12 hours and 
 
 <br>
 
+First, add the repository: <br>
+$ sudo add-apt-repository ppa:certbot/certbot <br>
+You’ll need to press ENTER to accept. Afterwards, update the package list to pick up the new repository’s package information: <br>
+$ sudo apt-get update <br>
+And finally, install Certbot from the new repository with apt-get: <br>
+$ sudo apt-get install python-certbot-apaches <br>
+The certbot Let’s Encrypt client is now ready to use. <br>
+ <br>
+To execute the interactive installation and obtain a certificate that covers only a single domain, run the certbot command with: <br>
+$ sudo certbot --apache -d account.onlinebuzz.com <br>
+ <br>
+You can verify the status of your SSL certificate with the following link (don’t forget to replace example.com with your base domain): <br>
+https://www.ssllabs.com/ssltest/analyze.html?d=account.onlinebuzz.com&latest <br>
+ <br>
+To test the renewal process, you can do a dry run with certbot: <br>
+$ sudo certbot renew --dry-run <br>
+
 4 - Run the service:
 
 `node app.js`
