@@ -14,7 +14,7 @@ router.post('/', (req, res) => {
 	var name = req.body.name
 	var key = req.body.key
 
-	var sql = 'SELECT * FROM tokens WHERE id=? AND status <> "1";'
+	var sql = 'SELECT * FROM tokens WHERE id=? AND status IS NULL;'
 	con.query(sql, [code], (err, result) => {
 		if(err){
 			console.log('Error selecting token! ' + err)
